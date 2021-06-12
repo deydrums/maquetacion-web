@@ -1,5 +1,7 @@
 let ubicacionPrincipal = window.pageYOffset;
 
+AOS.init();
+
 window.addEventListener("scroll",function(){
     let desplazamientoActual = window.pageYOffset;
     if(ubicacionPrincipal>=desplazamientoActual){
